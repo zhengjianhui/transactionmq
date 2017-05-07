@@ -13,6 +13,21 @@
         <module>pay</module>
     </modules>
 
+    <build>
+        <!-- 插件 -->
+        <plugins>
+            <!-- 具体插件 -->
+            <plugin>
+                <!-- 使用1.7的jdk -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <dependencyManagement>
         <dependencies>

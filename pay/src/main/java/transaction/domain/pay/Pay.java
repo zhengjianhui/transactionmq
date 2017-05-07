@@ -1,7 +1,9 @@
 package transaction.domain.pay;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.math.BigDecimal;
-import java.util.Date;
+import java.time.LocalDateTime;
 
 public class Pay {
     private String userid;
@@ -14,14 +16,15 @@ public class Pay {
 
     private String updateBy;
 
-    private Date updateTime;
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss")
+    private LocalDateTime updateTime;
 
     public String getUserid() {
         return userid;
     }
 
     public void setUserid(String userid) {
-        this.userid = userid == null ? null : userid.trim();
+        this.userid = userid;
     }
 
     public String getUsername() {
@@ -29,7 +32,7 @@ public class Pay {
     }
 
     public void setUsername(String username) {
-        this.username = username == null ? null : username.trim();
+        this.username = username;
     }
 
     public BigDecimal getAmount() {
@@ -45,7 +48,7 @@ public class Pay {
     }
 
     public void setDatail(String datail) {
-        this.datail = datail == null ? null : datail.trim();
+        this.datail = datail;
     }
 
     public String getUpdateBy() {
@@ -53,14 +56,14 @@ public class Pay {
     }
 
     public void setUpdateBy(String updateBy) {
-        this.updateBy = updateBy == null ? null : updateBy.trim();
+        this.updateBy = updateBy;
     }
 
-    public Date getUpdateTime() {
+    public LocalDateTime getUpdateTime() {
         return updateTime;
     }
 
-    public void setUpdateTime(Date updateTime) {
+    public void setUpdateTime(LocalDateTime updateTime) {
         this.updateTime = updateTime;
     }
 }

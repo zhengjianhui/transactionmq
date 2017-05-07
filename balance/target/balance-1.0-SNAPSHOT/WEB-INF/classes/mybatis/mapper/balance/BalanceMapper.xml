@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="transaction.dao.mybatis.balance.BalanceMapper" >
-  <resultMap id="BaseResultMap" type="transaction.domain.pay.Pay" >
+  <resultMap id="BaseResultMap" type="transaction.domain.balance.Balance" >
     <id column="userId" property="userid" jdbcType="VARCHAR" />
     <result column="username" property="username" jdbcType="VARCHAR" />
     <result column="amount" property="amount" jdbcType="DECIMAL" />
@@ -22,7 +22,7 @@
     delete from balance
     where userId = #{userid,jdbcType=VARCHAR}
   </delete>
-  <insert id="insert" parameterType="transaction.domain.pay.Pay" >
+  <insert id="insert" parameterType="transaction.domain.balance.Balance" >
     insert into balance (userId, username, amount, 
       datail, update_by, update_time
       )
@@ -30,7 +30,7 @@
       #{datail,jdbcType=VARCHAR}, #{updateBy,jdbcType=VARCHAR}, #{updateTime,jdbcType=TIMESTAMP}
       )
   </insert>
-  <insert id="insertSelective" parameterType="transaction.domain.pay.Pay" >
+  <insert id="insertSelective" parameterType="transaction.domain.balance.Balance" >
     insert into balance
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="userid != null" >
@@ -73,7 +73,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="transaction.domain.pay.Pay" >
+  <update id="updateByPrimaryKeySelective" parameterType="transaction.domain.balance.Balance" >
     update balance
     <set >
       <if test="username != null" >
@@ -94,7 +94,7 @@
     </set>
     where userId = #{userid,jdbcType=VARCHAR}
   </update>
-  <update id="updateByPrimaryKey" parameterType="transaction.domain.pay.Pay" >
+  <update id="updateByPrimaryKey" parameterType="transaction.domain.balance.Balance" >
     update balance
     set username = #{username,jdbcType=VARCHAR},
       amount = #{amount,jdbcType=DECIMAL},

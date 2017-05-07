@@ -1,6 +1,9 @@
 package transaction.domain.balance;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 public class Balance {
@@ -14,7 +17,8 @@ public class Balance {
 
     private String updateBy;
 
-    private Date updateTime;
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss")
+    private LocalDateTime updateTime;
 
     public String getUserid() {
         return userid;
@@ -56,11 +60,23 @@ public class Balance {
         this.updateBy = updateBy == null ? null : updateBy.trim();
     }
 
-    public Date getUpdateTime() {
+    public LocalDateTime getUpdateTime() {
         return updateTime;
     }
 
-    public void setUpdateTime(Date updateTime) {
+    public void setUpdateTime(LocalDateTime updateTime) {
         this.updateTime = updateTime;
+    }
+
+    @Override
+    public String toString() {
+        return "Balance{" +
+                "userid='" + userid + '\'' +
+                ", username='" + username + '\'' +
+                ", amount=" + amount +
+                ", datail='" + datail + '\'' +
+                ", updateBy='" + updateBy + '\'' +
+                ", updateTime=" + updateTime +
+                '}';
     }
 }

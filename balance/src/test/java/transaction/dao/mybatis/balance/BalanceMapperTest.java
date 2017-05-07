@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import transaction.domain.balance.Balance;
+
 /**
  * Created by zhengjianhui on 17/5/7.
  */
@@ -19,6 +21,11 @@ public class BalanceMapperTest {
     @Test
     public void insert() throws Exception {
         System.out.println(balanceMapper);
+
+        Balance record = new Balance();
+        record.setUserid("1234516");
+        record.setUsername("java 真几把啰嗦");
+        balanceMapper.insert(record);
     }
 
 }

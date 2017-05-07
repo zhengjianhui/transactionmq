@@ -1,28 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="transaction.dao.mybatis.pay.PayMapper">
-  <resultMap id="BaseResultMap" type="transaction.domain.pay.Pay">
-    <id column="userId" jdbcType="VARCHAR" property="userid" />
-    <result column="username" jdbcType="VARCHAR" property="username" />
-    <result column="amount" jdbcType="DECIMAL" property="amount" />
-    <result column="datail" jdbcType="VARCHAR" property="datail" />
-    <result column="update_by" jdbcType="VARCHAR" property="updateBy" />
-    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="transaction.dao.mybatis.pay.PayMapper" >
+  <resultMap id="BaseResultMap" type="transaction.domain.pay.Pay" >
+    <id column="userId" property="userid" jdbcType="VARCHAR" />
+    <result column="username" property="username" jdbcType="VARCHAR" />
+    <result column="amount" property="amount" jdbcType="DECIMAL" />
+    <result column="datail" property="datail" jdbcType="VARCHAR" />
+    <result column="update_by" property="updateBy" jdbcType="VARCHAR" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
   </resultMap>
-  <sql id="Base_Column_List">
+  <sql id="Base_Column_List" >
     userId, username, amount, datail, update_by, update_time
   </sql>
-  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
     select 
     <include refid="Base_Column_List" />
     from pay
     where userId = #{userid,jdbcType=VARCHAR}
   </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
     delete from pay
     where userId = #{userid,jdbcType=VARCHAR}
   </delete>
-  <insert id="insert" parameterType="transaction.domain.pay.Pay">
+  <insert id="insert" parameterType="transaction.domain.pay.Pay" >
     insert into pay (userId, username, amount, 
       datail, update_by, update_time
       )
@@ -30,71 +30,71 @@
       #{datail,jdbcType=VARCHAR}, #{updateBy,jdbcType=VARCHAR}, #{updateTime,jdbcType=TIMESTAMP}
       )
   </insert>
-  <insert id="insertSelective" parameterType="transaction.domain.pay.Pay">
+  <insert id="insertSelective" parameterType="transaction.domain.pay.Pay" >
     insert into pay
-    <trim prefix="(" suffix=")" suffixOverrides=",">
-      <if test="userid != null">
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="userid != null" >
         userId,
       </if>
-      <if test="username != null">
+      <if test="username != null" >
         username,
       </if>
-      <if test="amount != null">
+      <if test="amount != null" >
         amount,
       </if>
-      <if test="datail != null">
+      <if test="datail != null" >
         datail,
       </if>
-      <if test="updateBy != null">
+      <if test="updateBy != null" >
         update_by,
       </if>
-      <if test="updateTime != null">
+      <if test="updateTime != null" >
         update_time,
       </if>
     </trim>
-    <trim prefix="values (" suffix=")" suffixOverrides=",">
-      <if test="userid != null">
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="userid != null" >
         #{userid,jdbcType=VARCHAR},
       </if>
-      <if test="username != null">
+      <if test="username != null" >
         #{username,jdbcType=VARCHAR},
       </if>
-      <if test="amount != null">
+      <if test="amount != null" >
         #{amount,jdbcType=DECIMAL},
       </if>
-      <if test="datail != null">
+      <if test="datail != null" >
         #{datail,jdbcType=VARCHAR},
       </if>
-      <if test="updateBy != null">
+      <if test="updateBy != null" >
         #{updateBy,jdbcType=VARCHAR},
       </if>
-      <if test="updateTime != null">
+      <if test="updateTime != null" >
         #{updateTime,jdbcType=TIMESTAMP},
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="transaction.domain.pay.Pay">
+  <update id="updateByPrimaryKeySelective" parameterType="transaction.domain.pay.Pay" >
     update pay
-    <set>
-      <if test="username != null">
+    <set >
+      <if test="username != null" >
         username = #{username,jdbcType=VARCHAR},
       </if>
-      <if test="amount != null">
+      <if test="amount != null" >
         amount = #{amount,jdbcType=DECIMAL},
       </if>
-      <if test="datail != null">
+      <if test="datail != null" >
         datail = #{datail,jdbcType=VARCHAR},
       </if>
-      <if test="updateBy != null">
+      <if test="updateBy != null" >
         update_by = #{updateBy,jdbcType=VARCHAR},
       </if>
-      <if test="updateTime != null">
+      <if test="updateTime != null" >
         update_time = #{updateTime,jdbcType=TIMESTAMP},
       </if>
     </set>
     where userId = #{userid,jdbcType=VARCHAR}
   </update>
-  <update id="updateByPrimaryKey" parameterType="transaction.domain.pay.Pay">
+  <update id="updateByPrimaryKey" parameterType="transaction.domain.pay.Pay" >
     update pay
     set username = #{username,jdbcType=VARCHAR},
       amount = #{amount,jdbcType=DECIMAL},

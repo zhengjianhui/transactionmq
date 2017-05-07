@@ -29,7 +29,7 @@
     <bean id="dbcp"
           class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="${db.Driver}" />
-        <property name="url" value="${db.url}" />
+        <property name="url" value="${db.pay.url}" />
         <property name="username" value="${db.username}" />
         <property name="password" value="${db.password}" />
     </bean>

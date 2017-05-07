@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="transaction.dao.mybatis.balance.BalanceMapper" >
+<mapper namespace="transaction.dao.mybatis.pay.PayMapper" >
   <resultMap id="BaseResultMap" type="transaction.domain.pay.Pay" >
     <id column="userId" property="userid" jdbcType="VARCHAR" />
     <result column="username" property="username" jdbcType="VARCHAR" />
@@ -15,15 +15,15 @@
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
     select 
     <include refid="Base_Column_List" />
-    from balance
+    from pay
     where userId = #{userid,jdbcType=VARCHAR}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
-    delete from balance
+    delete from pay
     where userId = #{userid,jdbcType=VARCHAR}
   </delete>
   <insert id="insert" parameterType="transaction.domain.pay.Pay" >
-    insert into balance (userId, username, amount, 
+    insert into pay (userId, username, amount, 
       datail, update_by, update_time
       )
     values (#{userid,jdbcType=VARCHAR}, #{username,jdbcType=VARCHAR}, #{amount,jdbcType=DECIMAL}, 
@@ -31,7 +31,7 @@
       )
   </insert>
   <insert id="insertSelective" parameterType="transaction.domain.pay.Pay" >
-    insert into balance
+    insert into pay
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="userid != null" >
         userId,
@@ -74,7 +74,7 @@
     </trim>
   </insert>
   <update id="updateByPrimaryKeySelective" parameterType="transaction.domain.pay.Pay" >
-    update balance
+    update pay
     <set >
       <if test="username != null" >
         username = #{username,jdbcType=VARCHAR},
@@ -95,7 +95,7 @@
     where userId = #{userid,jdbcType=VARCHAR}
   </update>
   <update id="updateByPrimaryKey" parameterType="transaction.domain.pay.Pay" >
-    update balance
+    update pay
     set username = #{username,jdbcType=VARCHAR},
       amount = #{amount,jdbcType=DECIMAL},
       datail = #{datail,jdbcType=VARCHAR},
