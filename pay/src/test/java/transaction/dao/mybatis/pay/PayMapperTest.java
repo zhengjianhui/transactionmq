@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import java.math.BigDecimal;
+
 import transaction.domain.pay.Pay;
 
 /**
@@ -22,8 +24,9 @@ public class PayMapperTest {
     @Test
     public void insert() throws Exception {
         Pay record = new Pay();
-        record.setUserid("123123");
-        record.setUsername("asdas");
+        record.setUserid("z3");
+        record.setUsername("张三");
+        record.setAmount(new BigDecimal("10000"));
 
         payMapper.insert(record);
     }

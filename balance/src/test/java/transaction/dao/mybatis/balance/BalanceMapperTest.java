@@ -23,8 +23,8 @@ public class BalanceMapperTest {
         System.out.println(balanceMapper);
 
         Balance record = new Balance();
-        record.setUserid("1234516");
-        record.setUsername("java 真几把啰嗦");
+        record.setUserid("z3");
+        record.setUsername("张三");
         balanceMapper.insert(record);
     }
 

@@ -1,5 +1,7 @@
 package transaction.service.balance;
 
+import java.math.BigDecimal;
+
 import transaction.domain.balance.Balance;
 
 /**
@@ -8,6 +10,8 @@ import transaction.domain.balance.Balance;
 public interface BalanceServer {
 
     Balance addBalance(Balance balance);
+
+    Balance updateAmount(String userid, BigDecimal money, String balance_mode);
 
     void updateBySelectivePay(Balance balance);
 

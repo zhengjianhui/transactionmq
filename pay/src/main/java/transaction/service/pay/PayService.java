@@ -1,5 +1,7 @@
 package transaction.service.pay;
 
+import java.math.BigDecimal;
+
 import transaction.domain.pay.Pay;
 
 /**
@@ -8,6 +10,8 @@ import transaction.domain.pay.Pay;
 public interface PayService {
 
     Pay addPay(Pay pay);
+
+    Pay updateAmount(String userid, BigDecimal money, String pay_mode);
 
     void updateBySelectivePay(Pay pay);
 

@@ -123,6 +123,7 @@
             <groupId>com.fasterxml.jackson.datatype</groupId>
             <artifactId>jackson-datatype-jsr310</artifactId>
         </dependency>
+        <!-- json end -->
 
         <dependency>
             <groupId>commons-codec</groupId>
@@ -205,6 +206,20 @@
             <artifactId>guava</artifactId>
             <version>18.0</version>
         </dependency>
+
+        <!-- rocketmq begin -->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.0.23.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.rocketmq</groupId>
+            <artifactId>rocketmq-client</artifactId>
+            <version>3.2.6</version>
+        </dependency>
+        <!-- rocketmq end -->
 
 
     </dependencies>
