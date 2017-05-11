@@ -23,6 +23,8 @@
     <context:component-scan base-package="transaction" />
     <context:annotation-config/>
 
+    <task:scheduler id="myScheduler" pool-size="5"/>
+
     <!-- spring 整合 mybatis 过程-->
     <!-- 配置数据库相关数据 -->
 
