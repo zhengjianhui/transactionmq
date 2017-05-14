@@ -22,7 +22,7 @@
     <context:property-placeholder location="classpath:properties/*.properties"/>
     <context:annotation-config/>
     <context:component-scan base-package="transaction" />
-    <mvc:annotation-driven/>
+
 
 
     <!--<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">-->
@@ -37,6 +37,18 @@
     <import resource="classpath:spring/spring-dao.xml"/>
 
 
+    <!-- 设置 conversion-service 为自定义的，其他为默认  -->
+    <mvc:annotation-driven conversion-service="conversionService" />
+
+    <!-- 替换 FormattingConversionServiceFactoryBean 中的 枚举转换配置类 -->
+    <bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+        <property name="converters">
+            <set>
+                <bean class="transaction.converter.CodeToEnumConverterFactory"/>
+                <bean class="transaction.converter.EnumToCodeConverter" />
+            </set>
+        </property>
+    </bean>
 
 
 

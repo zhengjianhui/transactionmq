@@ -4,7 +4,8 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:tx="http://www.springframework.org/schema/tx"
        xmlns:aop="http://www.springframework.org/schema/aop"
-       xmlns:task="http://www.springframework.org/schema/task" xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xmlns:util="http://www.springframework.org/schema/util"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
         http://www.springframework.org/schema/context
@@ -23,7 +24,6 @@
     <context:component-scan base-package="transaction" />
     <context:annotation-config/>
 
-    <task:scheduler id="myScheduler" pool-size="5"/>
 
     <!-- spring 整合 mybatis 过程-->
     <!-- 配置数据库相关数据 -->
