@@ -1,85 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d50aa2da-68a2-4552-97cb-602442ef6820" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_binarywang_weixin_java_mp_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/controller/balance/TestXmlBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/controller/weixin/WeixinController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/controller/weixin/WeixinUserAuthorizationcController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/SelfButtonServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/WeixinPlatformService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/WeixinUserAuthorizationService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/accesstoken/ComponentAccessTokenRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/accesstoken/ComponentAccessTokenResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/authorization/AuthorizationInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/authorization/AuthorizationInfoRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/authorization/AuthorizationInfoResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/authorization/Funcscope.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/authorization/FuncscopeCategory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/authorizer/AuthorizationInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/authorizer/AuthorizerInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/authorizer/AuthorizerInfoRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/authorizer/AuthorizerInfoResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/authorizer/BusinessInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/authorizer/ServiceTypeInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/authorizer/VerifyTypeInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/authorizeroption/AuthorizerOptionRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/authorizeroption/AuthorizerOptionResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/authorizeroption/UpdateAuthorizerOptionRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/authorizeroption/UpdateAuthorizerOptionResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/authorizertoken/UpdateAuthorizerRefreshTokenRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/authorizertoken/UpdateAuthorizerRefreshTokenResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/jsticket/JsTicketResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/precode/PreAuthCodeRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/authorizationplatform/precode/PreAuthCodeResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/button/Button.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/button/ButtonResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/button/NewsInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/button/NewsInfoDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/button/SelfmenuInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/button/SubButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/button/SubButtonDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/user/UserInfoResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/dto/user/UserTokenResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/encryption/AesException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/encryption/ByteGroup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/encryption/PKCS7Encoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/encryption/SHA1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/encryption/WXBizMsgCrypt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/encryption/XMLParse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/enums/InfoType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/enums/LocationReportValue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/enums/OptionName.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/enums/OptionValue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/enums/Value.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/impl/SelfButtonServerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/impl/WeixinPlatformServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/impl/WeixinUserAuthorizationServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/scheduled/AuthorizerAccessTokenCron.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/scheduled/CompomentAccessTokenCron.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/scheduled/PreAuthCodeCron.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/service/weixin/utils/OkhttpUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/test/java/hash/ConsistentHash.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/balance/src/test/java/hash/HashFunction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/balance/target/balance-1.0-SNAPSHOT/WEB-INF/classes/transaction/controller/balance/BalanceController.class" afterPath="$PROJECT_DIR$/balance/target/balance-1.0-SNAPSHOT/WEB-INF/classes/transaction/controller/balance/BalanceController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/balance/target/classes/transaction/controller/balance/BalanceController.class" afterPath="$PROJECT_DIR$/balance/target/classes/transaction/controller/balance/BalanceController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/balance_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/balance_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/balance/balance.iml" afterPath="$PROJECT_DIR$/balance/balance.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/balance/pom.xml" afterPath="$PROJECT_DIR$/balance/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/balance/src/main/java/transaction/controller/balance/BalanceController.java" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/controller/balance/BalanceController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/balance/src/main/java/transaction/domain/balance/Balance.java" afterPath="$PROJECT_DIR$/balance/src/main/java/transaction/domain/balance/Balance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/balance/src/main/resources/spring/spring-dao.xml" afterPath="$PROJECT_DIR$/balance/src/main/resources/spring/spring-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/balance/src/main/resources/spring/spring-web.xml" afterPath="$PROJECT_DIR$/balance/src/main/resources/spring/spring-web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/balance/target/balance-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-dao.xml" afterPath="$PROJECT_DIR$/balance/target/balance-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/balance/target/balance-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-web.xml" afterPath="$PROJECT_DIR$/balance/target/balance-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/balance/target/classes/spring/spring-dao.xml" afterPath="$PROJECT_DIR$/balance/target/classes/spring/spring-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/balance/target/classes/spring/spring-web.xml" afterPath="$PROJECT_DIR$/balance/target/classes/spring/spring-web.xml" />
-    </list>
+    <list default="true" id="d50aa2da-68a2-4552-97cb-602442ef6820" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/pay/target/" />
@@ -125,16 +47,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#418#419#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1394,7 +1307,7 @@
       <workItem from="1494558893605" duration="8252000" />
       <workItem from="1494574865926" duration="7204000" />
       <workItem from="1494674198444" duration="9643000" />
-      <workItem from="1494804578380" duration="10000" />
+      <workItem from="1494804578380" duration="113000" />
     </task>
     <task id="LOCAL-00001" summary="Rocket 与Spring 简单集成">
       <created>1494428508919</created>
@@ -1410,7 +1323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1494494813954</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="微信第三方平台相关">
+      <created>1494804711516</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1494804711516</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1446,7 +1366,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129602000" />
+    <option name="totallyTimeSpent" value="129705000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1552,7 +1472,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rocket 与Spring 简单集成" />
     <MESSAGE value="Spring 接受枚举的code 映射为 枚举" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring 接受枚举的code 映射为 枚举" />
+    <MESSAGE value="微信第三方平台相关" />
+    <option name="LAST_COMMIT_MESSAGE" value="微信第三方平台相关" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1778,6 +1699,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1793,6 +1715,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1800,6 +1723,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="e#957#958#0" expanded="false" />
+            <element signature="e#989#990#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1807,6 +1734,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1814,6 +1744,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1821,6 +1752,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1828,6 +1760,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#210#211#0" expanded="false" />
+            <element signature="e#239#240#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1835,6 +1771,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="e#493#494#0" expanded="false" />
+            <element signature="e#529#530#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1842,6 +1782,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1849,6 +1790,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1311">
           <caret line="463" column="18" lean-forward="false" selection-start-line="463" selection-start-column="18" selection-end-line="463" selection-end-column="18" />
+          <folding>
+            <element signature="e#16696#16697#0" expanded="false" />
+            <element signature="e#16741#16742#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1856,6 +1801,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1863,6 +1809,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-115">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+            <element signature="e#1222#1223#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+            <element signature="e#1284#1285#0" expanded="true" />
+            <element signature="e#1328#1329#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="true" />
+            <element signature="e#1424#1425#0" expanded="true" />
+            <element signature="e#1466#1467#0" expanded="true" />
+            <element signature="e#1500#1501#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1878,6 +1842,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1895,6 +1862,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
+            <element signature="e#1289#1290#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+            <element signature="e#1360#1361#0" expanded="true" />
+            <element signature="e#1387#1388#0" expanded="true" />
+            <element signature="e#1427#1428#0" expanded="true" />
+            <element signature="e#1459#1460#0" expanded="true" />
+            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
+            <element signature="e#1613#1614#0" expanded="true" />
+            <element signature="e#1647#1648#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
+            <element signature="e#1723#1724#0" expanded="true" />
+            <element signature="e#1761#1762#0" expanded="true" />
+            <element signature="e#1798#1799#0" expanded="true" />
+            <element signature="e#1831#1832#0" expanded="true" />
+            <element signature="e#1883#1884#0" expanded="true" />
+            <element signature="e#1927#1928#0" expanded="true" />
+            <element signature="e#1964#1965#0" expanded="true" />
+            <element signature="e#1996#1997#0" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="e#2089#2090#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1945,6 +1950,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1952,16 +1958,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
